@@ -127,3 +127,7 @@ div#dcserverinv {
     transform: translateX(-50%);
     margin-bottom: 5px;
 }
+
+ul.infolist li {
+    width: 200px;
+}

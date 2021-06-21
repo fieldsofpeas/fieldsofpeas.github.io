@@ -10,4 +10,7 @@ dl, ol, ul {
     padding-bottom: 10px;
 }
 
+div#publicCSS {
+    background-color: var(--html);
+}
 
