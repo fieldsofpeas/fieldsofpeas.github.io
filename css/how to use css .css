@@ -1,0 +1,17 @@
+:root {
+    --html: #89ff90;
+}
+
+#resosweppa {
+    background-color: var(--html);
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#resosweppa {
+    background-color: var(--html);
+    padding-top: 11px;
+}

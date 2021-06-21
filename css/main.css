@@ -1,0 +1,129 @@
+:root {
+    --html: #89ff90;
+}
+
+
+@font-face {
+  font-family: 'Nova Round';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/novaround/v14/flU9Rqquw5UhEnlwTJYTUYDUeA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+header {
+    background-color: limegreen !important;
+}
+
+* {
+    font-family: 'Nova Round';
+}
+    
+html {
+    background-color: var(--html);
+    color: black;
+}
+
+#info {
+    background-color: var(--html);
+}
+
+.navbar-text {
+    float: left;
+    margin-top: -36px;
+    margin-left: 10px;
+}
+
+.links{
+    pointer-events: all;
+}
+
+#carouselExampleControls {
+    height: 237px;
+    width: 421px;
+    float: right;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scale(1.5);
+    margin-top: 100px;
+}
+
+#mywork {
+    background-color: transparent;
+}
+
+.workexample {
+    background-color: var(--html);
+    text-align: center;
+    padding-top: 30px;
+}
+
+#info {
+    background-color: var(--html);
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+ul.infolist {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: underline;
+}
+
+ul.infolist li {
+    margin: 10px;
+}
+
+a:hover {
+    color: black !important;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: none !important;
+    transition: 500ms ease-in-out !important;
+}
+
+#commsinfo a {
+    text-decoration: none;
+    transition: 500ms ease-in-out;
+}
+
+#commsinfo a:hover {
+    color: black;
+}
+
+#premadecss a {
+    text-decoration: none;
+    transition: 500ms ease-in-out;
+}
+
+#premadecss a:hover {
+    color: black;
+}
+
+#resossweppa a {
+    text-decoration: none;
+    transition: 500ms ease-in-out;
+}
+
+#resossweppa a:hover {
+    color: black;
+}
+
+div#dcserverinv {
+    background-color: var(--html);
+    position: absolute;
+    bottom: 1%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 5px;
+}
