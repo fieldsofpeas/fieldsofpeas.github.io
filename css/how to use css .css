@@ -15,3 +15,7 @@ dl, ol, ul {
     background-color: var(--html);
     padding-top: 11px;
 }
+
+.navbar {
+    width: 1000%;
+}

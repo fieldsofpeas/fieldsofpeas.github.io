@@ -10,4 +10,14 @@ dl, ol, ul {
     padding-bottom: 10px;
 }
 
+.cssimg {
+    transform: translateX(-20px);
+}
 
+html {
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 1000%;
+}

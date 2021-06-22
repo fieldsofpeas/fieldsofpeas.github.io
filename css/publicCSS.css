@@ -14,3 +14,11 @@ div#publicCSS {
     background-color: var(--html);
 }
 
+.cssimglist li {
+    list-style: none;
+}
+
+.navbar {
+    width: 1000%;
+}
+
