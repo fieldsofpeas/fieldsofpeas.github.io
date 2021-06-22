@@ -22,3 +22,12 @@ div#publicCSS {
     width: 1000%;
 }
 
+a:hover {
+    color: black !important;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: underline;
+    transition: 500ms ease-in-out;
+}

@@ -33,3 +33,25 @@ body {
 .container {
     transform: translateY(-30px);
 }
+
+.navbar-text {
+    color: rgba(255,255,255,.55);
+}
+
+header {
+    background-color: limegreen;
+}
+
+a:hover {
+    color: black !important;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: underline;
+    transition: 500ms ease-in-out;
+}
+
+.navbar-text a {
+    color: rgba(255,255,255,.55);
+}
