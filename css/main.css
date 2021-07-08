@@ -55,3 +55,8 @@ a {
 .navbar-text a {
     color: rgba(255,255,255,.55);
 }
+
+.discordInvite {
+    transform: translateY(-33px);
+    margin-bottom: 10px;
+}
